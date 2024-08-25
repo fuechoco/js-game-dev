@@ -105,8 +105,8 @@ hr{
 }
 
 #board{
-	width: 397.34px;
-	height: 396px;
+	width: 379.5px;
+	height: 380px;
 	background-color: #de9797;
 	border: 5px solid #850000;
 	margin: 0.5rem auto;
@@ -119,8 +119,8 @@ hr{
 .tile{
 	position: relative;
 	display: inline-block;
-	width: 90px;
-	height: 90px;
+	width: 85.5px;
+	height: 85.5px;
 	border: 5.3px solid #850000;
 	font-size: 40px;
 	font-weight: bold;
@@ -287,19 +287,19 @@ footer{
 
 /*media query*/
 /*to override specific styles once screen size is reached*/
-@media (max-width 430px){
+@media (max-width 415px){
 	#board{
 		margin-top: 8px;
-		width: 100vw;
-		max-width: 410px;
-		height: 100vh;
-		max-height: 410px;
+		width: 90vw;
+		max-width: 400px;
+		height: 90vh;
+		max-height: 400px;
 	}
 
 	.tile{
 		box-sizing: border-box;
-		width: 25%;
-		height: 25%;
+		width: 20%;
+		height: 20%;
 	}
 	h1{
 		font-size: 40px;
